@@ -1,4 +1,4 @@
-import 'package:counter_app5b/screens/counter_screen.dart';
+import 'package:counter_app5b/screens/multiplicador.dart';
 
 import 'package:flutter/material.dart';
 
@@ -12,6 +12,6 @@ class MiApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-        debugShowCheckedModeBanner: false, home: CounterScreen());
+        debugShowCheckedModeBanner: false, home: Multiplicador());
   }
 }
